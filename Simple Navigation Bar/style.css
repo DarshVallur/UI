@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5em;
+	
+}
+
+ul {
+  background-color: black;
+  height: 55px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;  
+}
+.banner{ 
+  background-image: url(img/man-in-white.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 90vh;
+}
